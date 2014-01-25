@@ -270,6 +270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1a3bc4969339c84e9b2bd60d1e1d02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteGos: []
+  spriteGoPrefab: {fileID: 100000, guid: 163f2e7744ce4c943bfc1cc5b4720a2f, type: 2}
 --- !u!1 &1327050511
 GameObject:
   m_ObjectHideFlags: 0
