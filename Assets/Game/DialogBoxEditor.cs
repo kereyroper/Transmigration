@@ -1,13 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEditor;
 
-public class DialogBoxEditor : MonoBehaviour {
+public abstract class DialogBoxEditor : MonoBehaviour {
 
 	public int width, height, content;
-	private void updateSize();
+	private abstract void updateSize();
 	// Use this for initialization
 	void Start () {
-	
+		
 	}
 	
 	// Update is called once per frame
@@ -17,6 +18,7 @@ public class DialogBoxEditor : MonoBehaviour {
 	}
 
 	void updateSize(){
-
+		//dialogWidth = current width
+		//dialogHeight = current height
 	}
 }
