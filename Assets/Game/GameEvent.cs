@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameEvent : MonoBehaviour {
+public abstract class GameEvent : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -12,4 +12,6 @@ public class GameEvent : MonoBehaviour {
 	void Update () {
 	
 	}
+
+	public abstract void Trigger();
 }
