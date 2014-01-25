@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
-using SimpleJSON;
 
-public class Dialog : MonoBehaviour {
+public class PrintAnswer : MonoBehaviour {
 
-
+	// Use this for initialization
+	void Start () {
+	
+	}
 	
 	// Update is called once per frame
 	void Update () {
-		//As some event occur
-		//text show.
+	
 	}
 }
