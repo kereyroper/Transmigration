@@ -9,8 +9,8 @@ public class MemoryManager : MonoBehaviour
 
 	// Use this for initialization
 	void Start () {
-//		var globals = GameObject.Find("Globals");
-//		playerState = globals.GetComponent<PlayerState>();
+		var globals = GameObject.Find("Globals");
+		playerState = globals.GetComponent<PlayerState>();
 		var spritePrefab = Resources.Load<Sprite>("tv01");
 		var sprite = (Sprite)Instantiate(spritePrefab);
 		spriteGos = new GameObject[10];
