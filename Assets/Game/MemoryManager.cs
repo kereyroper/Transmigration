@@ -16,6 +16,7 @@ public class MemoryManager : MonoBehaviour
 		spriteGos = new GameObject[10];
 		var spriteGo = (GameObject)Instantiate(spriteGoPrefab);
 		spriteGo.GetComponent<SpriteRenderer>().sprite = sprite;
+		spriteGo.GetComponent<ClickHandler>().scene = "TV";
 		spriteGos[0] = spriteGo;
 	}
 	

@@ -17,3 +17,5 @@ EditorBuildSettings:
     path: Assets/Rooms/Bed1/Bed1.unity
   - enabled: 1
     path: Assets/FractalMemories.unity
+  - enabled: 1
+    path: Assets/Rooms/TV/TV.unity
