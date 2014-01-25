@@ -6,7 +6,7 @@ public class InitializeDay : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		GameObject.DontDestroyOnLoad(GameObject.Find("DayGlobals"));
-		Application.LoadLevel("Living");
+		Application.LoadLevel("FractalMemories");
 	}
 	
 	// Update is called once per frame

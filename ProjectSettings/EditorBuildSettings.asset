@@ -15,3 +15,5 @@ EditorBuildSettings:
     path: Assets/Rooms/Living/Living.unity
   - enabled: 1
     path: Assets/Rooms/Bed1/Bed1.unity
+  - enabled: 1
+    path: Assets/FractalMemories.unity
