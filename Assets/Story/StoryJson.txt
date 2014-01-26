@@ -1,0 +1,12 @@
+{
+"storyElements" : {
+	"prompt" : "Do you love me?",
+	"responses" : [
+		"A.) I guess",
+		"B.) ...well no... not really...",
+		"C.)  hahha GROSS why would you ask me that?",
+		"D.) I don’t know",
+		"E.) More than Anything."
+	]
+}
+}

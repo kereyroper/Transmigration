@@ -86,6 +86,7 @@ GameObject:
   - 114: {fileID: 504840515}
   - 114: {fileID: 504840514}
   - 114: {fileID: 504840517}
+  - 114: {fileID: 504840518}
   m_Layer: 0
   m_Name: Globals
   m_TagString: Untagged
@@ -152,6 +153,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a14eb272fa72c94bbd70778fd263a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  happiness: 0
+  courage: 0
+  love: 0
+  friendship: 0
+  calm: 0
+--- !u!114 &504840518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 504840512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abde93974b3933341ac104256b47f5c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyJsonFile: {fileID: 4900000, guid: 7bd4f777782a84a4f9bb80166f80cedf, type: 3}
 --- !u!1 &1871909404
 GameObject:
   m_ObjectHideFlags: 0
