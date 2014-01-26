@@ -5,8 +5,15 @@
 		"A.) I guess",
 		"B.) ...well no... not really...",
 		"C.)  hahha GROSS why would you ask me that?",
-		"D.) I don’t know",
+		"D.) I don't know",
 		"E.) More than Anything."
+	],
+	"outcomes" : [
+		{ "calm" : -1, "courage" : -1, "friendship" : 1, "happiness" : 0, "love" : -1 },
+		{ "calm" : 0, "courage" : 0, "friendship" : 1, "happiness" : -1, "love" : -2 },
+		{ "calm" : -1, "courage" : 1, "friendship" : 1, "happiness" : 1, "love" : -2 },
+		{ "calm" : -2, "courage" : -2, "friendship" : 0, "happiness" : 0, "love" : 0 },
+		{ "calm" : 2, "courage" : 2, "friendship" : 1, "happiness" : 2, "love" : 2 }
 	]
 }
 }
