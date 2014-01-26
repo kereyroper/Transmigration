@@ -1,5 +1,10 @@
 {
-"storyElements" : {
+"storyElements" : 
+[
+	{
+	"reference" : "Intro",
+	"gateMin" : { "calm" : -1, "courage" : -1, "friendship" : 1, "happiness" : 0, "love" : -1 },
+	"gateMax" : { "calm" : -1, "courage" : -1, "friendship" : 1, "happiness" : 0, "love" : -1 },
 	"prompt" : "Do you love me?",
 	"responses" : [
 		"A.) I guess",
@@ -14,6 +19,14 @@
 		{ "calm" : -1, "courage" : 1, "friendship" : 1, "happiness" : 1, "love" : -2 },
 		{ "calm" : -2, "courage" : -2, "friendship" : 0, "happiness" : 0, "love" : 0 },
 		{ "calm" : 2, "courage" : 2, "friendship" : 1, "happiness" : 2, "love" : 2 }
+	],
+	"herReactions" : [
+		"A.) So...",
+		"B.) ...well no... not really...",
+		"C.)  hahha GROSS why would you ask me that?",
+		"D.) I don't know",
+		"E.) More than Anything."
 	]
-}
+	}
+]
 }

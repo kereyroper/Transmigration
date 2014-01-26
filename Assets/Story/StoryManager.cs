@@ -9,7 +9,7 @@ public class StoryManager : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 		var storyJson = JSONNode.Parse(storyJsonFile.text);
-		Debug.Log(storyJson["storyElements"]["prompt"]);
+		Debug.Log(storyJson["storyElements"][0]["prompt"]);
 	}
 	
 	// Update is called once per frame
